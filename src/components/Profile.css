@@ -1,0 +1,56 @@
+/* Estilo general para el perfil */
+.profile {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Ojuju', cursive; /* Cambia la fuente a Ojuju */
+    color: #fff; /* Color de texto blanco */
+    background-color: #000; /* Fondo negro */
+}
+
+/* Estilo para el encabezado del perfil */
+.profile h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem; /* Tamaño de fuente grande */
+    font-weight: 700; /* Grosor de fuente en negrita */
+    color: #ff577f; /* Color de texto rosa */
+}
+
+/* Estilo para la información del perfil */
+.profile-info {
+    line-height: 1.8;
+}
+
+/* Estilo para los iconos */
+.icon {
+    margin-right: 0.5rem;
+    color: #ff577f; /* Color de los iconos rosa */
+    vertical-align: middle;
+}
+
+/* Estilo para los párrafos dentro de la información del perfil */
+.profile-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.6rem; /* Tamaño de fuente más grande */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilo para las listas dentro de la información del perfil */
+.profile-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 2rem;
+    font-size: 1.6rem; /* Tamaño de fuente más grande */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilo para los ítems de las listas */
+.profile-info ul li {
+    margin-bottom: 0.5rem;
+}
